@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "threadded_enumerator"
   gem.homepage = "http://github.com/kaspernj/threadded_enumerator"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Enumerator using thread to avoid fiber-bugs.}
+  gem.description = %Q{Enumerator using thread to avoid fiber-bugs.}
   gem.email = "k@spernj.org"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile
