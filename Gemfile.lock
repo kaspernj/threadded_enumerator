@@ -22,6 +22,7 @@ GEM
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.8.0)
     tsafe (0.0.1)
+    wref (0.0.4)
 
 PLATFORMS
   ruby
@@ -33,3 +34,4 @@ DEPENDENCIES
   rdoc (~> 3.12)
   rspec (~> 2.8.0)
   tsafe
+  wref
