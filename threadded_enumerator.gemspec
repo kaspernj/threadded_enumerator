@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kasper Johansen"]
   s.date = %q{2012-07-11}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Enumerator using thread to avoid fiber-bugs.}
   s.email = %q{k@spernj.org}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,13 +27,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/threadded_enumerator.rb",
     "spec/spec_helper.rb",
-    "spec/threadded_enumerator_spec.rb"
+    "spec/threadded_enumerator_spec.rb",
+    "threadded_enumerator.gemspec"
   ]
   s.homepage = %q{http://github.com/kaspernj/threadded_enumerator}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Enumerator using thread to avoid fiber-bugs.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
