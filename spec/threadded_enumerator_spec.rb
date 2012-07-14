@@ -103,7 +103,7 @@ describe "ThreaddedEnumerator" do
   end
   
   it "should execute ensures and GC" do
-    require "wref"
+    require "wref" if !Kernel.const_defined?(:Wref)
     $ensured = false #Used to check if ensures within 'Threadded_enumerator' are executed later.
     debug = false
     

@@ -1,4 +1,4 @@
-require "tsafe"
+require "tsafe" if !Kernel.const_defined?(:Tsafe)
 require "timeout"
 
 class Threadded_enumerator
